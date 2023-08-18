@@ -1,0 +1,13 @@
+.form{
+    margin-top: 250px;
+    /* padding: 10px; */
+}
+.image {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-image: url('/public/Images/bckg.jpg');
+    background-size: cover;
+    /* Other styles */
+  }
+  

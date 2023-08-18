@@ -1,0 +1,121 @@
+.image{
+    background: url('/public/Images/trains.jpg');
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    background-size: cover; 
+}
+.result{
+  overflow: scroll;
+  margin-top: 10px;
+  background-color: rgb(240, 240, 253);
+  display: inline-block;
+  height: 250vh;
+  width: 210%;
+  margin-left: -135px;
+  border-radius: 15px;
+  
+}
+.result h1{
+
+  font-size: 26px;
+}
+.input{
+  /* margin-right: 100px; */
+    position: relative;
+    right: 50px;
+    top: 130px;
+    margin-top: -30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.input input {
+    opacity: 0.8;
+    width: 130%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+
+.btn button {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top:5px;
+    width: 100px;
+    opacity: 0.8;
+    height: 50px;
+    font-size: 16px;
+  }
+  .bt{
+    /* position: absolute;
+    top: -1px;
+    right: 357px; */
+  }
+  @media (max-width: 768px) {
+    .input{
+      right: 0;
+      top: 0;
+      margin-top: 50px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    .input input {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .btn button {
+      width: 100%;
+      height: 40px;
+      font-size: 14px;
+    }
+    .result{
+      /* height: auto; */
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      height: 250vh;
+    }
+  }
+  
+@media only screen and (max-width: 414px) {
+  .journ {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  }
+  .journ2 {
+  position: static;
+  width: 100%;
+  margin-left: 0;
+  }
+  .train {
+  margin-left: 5%;
+  }
+  .current {
+  left: 5%;
+  }
+  .input {
+  right: 0;
+  top: 50px;
+  }
+  .input input {
+  width: 100%;
+  }
+  .result {
+  margin-left: 0;
+  width: 100%;
+  height: auto;
+  }
+  }

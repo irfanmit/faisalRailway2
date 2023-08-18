@@ -1,0 +1,30 @@
+ .Button{
+    display: flex;
+    justify-content: center;
+    margin-left: 228px;
+ }
+ button {
+  opacity: 0.9;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #41eb88, #507891);
+  background-image: -moz-linear-gradient(top, #41eb88, #507891);
+  background-image: -ms-linear-gradient(top, #41eb88, #507891);
+  background-image: -o-linear-gradient(top, #41eb88, #507891);
+  background-image: linear-gradient(to bottom, #41eb88, #507891);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  /* font-family: Arial; */
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+  }
+  
+button:hover {
+   
+  background: #41eb88;
+    
+    text-decoration: none;
+  }

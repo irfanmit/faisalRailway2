@@ -1,0 +1,58 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  .zero{
+    display: flex;
+   /* margin: auto; */
+   position: relative;
+   left: 50%;
+    /* height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: white;
+    border-color:  black;
+    border-width: 2px; */
+  }
+  .divForm input {
+    padding: 17px;
+    margin-bottom: 7px;
+    font-size: 17px;
+    border: none;
+    width: 50%;
+    border-bottom: 2px solid #ccc;
+  }
+
+  .divForm button{
+    width: 18%;
+    margin-bottom: 2%;
+    margin-top: 5px;
+  }
+
+  .error{
+    font-weight: 500;
+    background-color: aliceblue;
+    color: red;
+    border: light;
+    border-color: red;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
